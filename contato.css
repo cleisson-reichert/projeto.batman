@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: none;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+    color: red;
+}
+#logo {
+    width: 150px;
+    height: 100%;
+}
+form{
+    background-color: black;
+}
+.fundo{
+    width: 100%;
+    height: 700px;
+    display: block;
+    background-image: url('https://th.bing.com/th/id/R.b8fcc104cb9c4e8132d322b60258845f?rik=5jM4Fpy4bpimWA&pid=ImgRaw&r=0');
+}
+.form{
+    width: 100%;
+    color: aliceblue;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+s{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-bottom: 50px;
+}
+#name{
+    
+    width: 35%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    background: transparent;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#email{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    background: transparent;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+#cell-phone{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    background: transparent;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+#text{
+    width: 35%;
+    height: 100px;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    background: transparent;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+button{
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.redes{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url('https://png.pngtree.com/png-clipart/20230401/original/pngtree-three-dimensional-instagram-icon-png-image_9015419.png');
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png');
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url('https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-logo-do-cone-do-twitter.png');
+}
+
+footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom:  10px;
+}
+.logo2{
+    margin-top: 20px;
+}
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width: 1280px){
+  
+    #name{
+        width: 50%;
+    }
+    
+    #email{
+        width: 50%;
+    }
+    #cell-phone{
+        width: 50%;
+    }
+    #text{
+        width: 50%;
+    }
+
+}
+@media(max-width: 768px){
+    span{
+        margin-top: 20px;
+        color: #fff;
+        font-family: 'Kdam Thmor Pro', sans-serif ;
+    }
+    footer{
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .logo2{
+        margin-top: 30px;
+    }
+    .footer-navigation{
+        background-color: balck;
+        display: block;
+        }
+    nav{
+        display: none;
+    }
+    #name{
+        width: 80%;
+    }
+    
+    #email{
+        width: 80%;
+    }
+    #cell-phone{
+        width: 80%;
+    }
+    #text{
+        width: 80%;
+    }
+
+}
